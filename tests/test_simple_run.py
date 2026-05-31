@@ -33,7 +33,7 @@ try:
     print("Starting simulation...")
     
     # Run simulation
-    nS, nD, nN, nB, mat_sats = mocat.main_mc(cfg_mc, 42)
+    nS, nD, nN, nB, mat_sats, _ = mocat.main_mc(cfg_mc, 42)
     
     elapsed = time.time() - start_time
     total = nS + nD + nN + nB

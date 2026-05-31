@@ -20,7 +20,7 @@ def quick_start():
     mocat = MOCATMC()
 
     # Initial condition file (use default if not found)
-    ic_file = '2020.mat'
+    ic_file = '/Users/dchen/Documents/GitHub/pymocat-mc-2/pymocat_mc/supporting_data/TLEhistoric/2020.mat'
 
     # MOCAT MC configuration
     seed = 1  # random number generator seed

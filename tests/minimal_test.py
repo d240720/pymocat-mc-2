@@ -33,7 +33,7 @@ try:
     cfg_mc['P_frag'] = 0
     
     print("Running minimal simulation...")
-    nS, nD, nN, nB, mat_sats = mocat.main_mc(cfg_mc, 1)
+    nS, nD, nN, nB, mat_sats, _ = mocat.main_mc(cfg_mc, 1)
     
     print(f"SUCCESS! Final counts: S={nS}, D={nD}, N={nN}, B={nB}")
     

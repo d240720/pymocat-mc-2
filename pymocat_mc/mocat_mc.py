@@ -104,7 +104,7 @@ class MOCATMC:
         cfg_mc['missionlifetime'] = 8
 
         t0_prop = 0
-        nyears = 100
+        nyears = 1
         tf_prop = cfg_mc['YEAR2MIN'] * nyears 
         cfg_mc['dt_days'] = 5
         delta_t = cfg_mc['dt_days'] * cfg_mc['DAY2MIN']

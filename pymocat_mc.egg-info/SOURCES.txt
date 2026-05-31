@@ -1,6 +1,5 @@
 CITATION.cff
 CONTRIBUTING.md
-LICENSE
 MANIFEST.in
 README.md
 TESTING.md
@@ -19,8 +18,15 @@ pymocat_mc.egg-info/top_level.txt
 pymocat_mc/examples/__init__.py
 pymocat_mc/examples/Quick_Start/README.md
 pymocat_mc/examples/Quick_Start/__init__.py
+pymocat_mc/examples/Quick_Start/compare_ensembles.py
+pymocat_mc/examples/Quick_Start/discrepancy_verify.py
+pymocat_mc/examples/Quick_Start/ensemble.png
+pymocat_mc/examples/Quick_Start/ensemble_compare.py
+pymocat_mc/examples/Quick_Start/python_ensemble_100seeds.png
+pymocat_mc/examples/Quick_Start/python_vs_matlab_verification.png
 pymocat_mc/examples/Quick_Start/quick_start.py
 pymocat_mc/examples/Quick_Start/quick_start_with_plots.py
+pymocat_mc/examples/Quick_Start/timeseries.png
 pymocat_mc/examples/Realistic_Operations_No_Launch/README.md
 pymocat_mc/examples/Realistic_Operations_No_Launch/__init__.py
 pymocat_mc/examples/Realistic_Operations_No_Launch/python_realistic_ops_no_launch_figure_1_population_summary.png
@@ -68,6 +74,7 @@ pymocat_mc/supporting_functions/cross_vec.py
 pymocat_mc/supporting_functions/cube_vec_v3.py
 pymocat_mc/supporting_functions/densityexp.py
 pymocat_mc/supporting_functions/densityexp_vec.py
+pymocat_mc/supporting_functions/ensemble.png
 pymocat_mc/supporting_functions/fill_mass_radius_resample.py
 pymocat_mc/supporting_functions/fillin_atmosphere.py
 pymocat_mc/supporting_functions/fillin_physical_parameters.py
@@ -90,6 +97,7 @@ pymocat_mc/supporting_functions/lininterp2.py
 pymocat_mc/supporting_functions/lininterp2_vec.py
 pymocat_mc/supporting_functions/lininterp2_vec_v2.py
 pymocat_mc/supporting_functions/main_mc.py
+pymocat_mc/supporting_functions/mc2ssem_population.py
 pymocat_mc/supporting_functions/mean2osc.py
 pymocat_mc/supporting_functions/mean2osc_m.py
 pymocat_mc/supporting_functions/mean2osc_m_vec.py
@@ -103,6 +111,7 @@ pymocat_mc/supporting_functions/osc2mean_m_vec.py
 pymocat_mc/supporting_functions/osc2mean_vec.py
 pymocat_mc/supporting_functions/prop_mit_vec.py
 pymocat_mc/supporting_functions/rv2coe_vec.py
+pymocat_mc/supporting_functions/timeseries.png
 tests/README.md
 tests/minimal_test.py
 tests/run_tests.py
